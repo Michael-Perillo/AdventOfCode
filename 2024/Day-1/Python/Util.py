@@ -1,4 +1,4 @@
-file_path = '2024\Day 1\input.txt'
+file_path = '2024\Day-1\input.txt'
 
 def read_input():
     # Open the file
