@@ -13,18 +13,26 @@
             "justMyCode": false
         },
         {
-            "name": "Python: Unittest Day 3 Part 1",
+            "name": "Python: Unittest Day 3",
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/2024/Day-3/Python/test_Part1.py",
+            "program": "${workspaceFolder}/2024/Day-3/Python/test_Day3.py",
             "console": "integratedTerminal",
             "justMyCode": false
-        }
+        },
         {
             "name": "Python: Day 3 Part 1",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/2024/Day-3/Python/Part1.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Python: Day 3 Part 2",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/2024/Day-3/Python/Part2.py",
             "console": "integratedTerminal",
             "justMyCode": false
         }
