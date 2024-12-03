@@ -5,10 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Unittest",
-            "type": "python",
+            "name": "Python: Unittest Day 2 Part 2",
+            "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/2024/Day-2/Python/Part2_Tests.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Python: Unittest Day 3 Part 1",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/2024/Day-3/Python/test_Part1.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+        {
+            "name": "Python: Day 3 Part 1",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/2024/Day-3/Python/Part1.py",
             "console": "integratedTerminal",
             "justMyCode": false
         }
