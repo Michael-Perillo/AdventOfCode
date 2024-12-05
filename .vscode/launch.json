@@ -52,5 +52,13 @@
             "console": "integratedTerminal",
             "justMyCode": false
         },
+        {
+            "name": "Python: Day 4 Part 2",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/2024/Day-4/Python/Part2.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
     ]
 }
