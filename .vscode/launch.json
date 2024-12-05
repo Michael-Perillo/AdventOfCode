@@ -35,6 +35,22 @@
             "program": "${workspaceFolder}/2024/Day-3/Python/Part2.py",
             "console": "integratedTerminal",
             "justMyCode": false
-        }
+        },
+        {
+            "name": "Python: Unittest Day 4",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/2024/Day-4/Python/test_Day4.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Python: Day 4 Part 1",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/2024/Day-4/Python/Part1.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
     ]
 }
