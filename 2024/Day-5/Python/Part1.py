@@ -4,16 +4,19 @@ from Util import read_input
 
 def main():
     ordering, messages = read_input()
-    print(sum_of_middle_digits(ordering, messages))
+    print(sum_of_middle_digits(get_correct_messages(ordering, messages)))
 
-def sum_of_middle_digits(ordering, messages):
+def get_correct_messages(ordering, messages):
     # we want to return the sum of the middle digits of the messages that are in the correct order
     # we can determine the correct order by checking the ordering dictionary
     correct_ordered_messages = []
     for message in messages:
         if is_correct_order(ordering, message):
             correct_ordered_messages.append(message)
-    return sum([message[len(message)//2] for message in correct_ordered_messages])
+    return correct_ordered_messages
+
+def sum_of_middle_digits(messages):
+    return sum([message[len(message)//2] for message in messages])
 
 def is_correct_order(ordering, message):
     # for each digit in the message:
