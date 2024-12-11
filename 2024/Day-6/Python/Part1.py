@@ -41,7 +41,7 @@ def update_visited_positions(visited_positions, current_position, next_position)
     for k in get_correct_range(i, i_next):
         visited_positions[(k, j)] = True
     for k in get_correct_range(j, j_next):
-        visited_positions[(i_next, k)] = True
+        visited_positions[(i, k)] = True
     return visited_positions
 
 def get_correct_range(i, i_next):
