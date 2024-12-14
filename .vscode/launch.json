@@ -131,6 +131,31 @@
             "program": "${workspaceFolder}/2024/Day-7/Python/Part2.py",
             "console": "integratedTerminal",
             "justMyCode": false
+        },
+        {
+            "name": "Python: Unittest Day 8",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/2024/Day-8/Python/test.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+
+        },
+        {
+            "name": "Python: Day 8 Part 1",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/2024/Day-8/Python/Part1.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Python: Day 8 Part 2",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/2024/Day-8/Python/Part2.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
         }
     ]
 }
