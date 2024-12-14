@@ -29,6 +29,8 @@ def evaluate_input(input_data, storage_size):
 def calculate_checksum(storage):
     output = 0
     for i in range(len(storage)):
+        if storage[i] == '.':
+            continue
         output += int(storage[i]) * i
     return output
 
